@@ -3,7 +3,7 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "homepage": "https://sheiksaqibahmed.github.io/Sheik_Saqib_Ahmed-Portfolio/",
+  "homepage": "https://sheiksaqibahmed.github.io/Sheik_Saqib_Ahmed_Portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
