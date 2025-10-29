@@ -4,14 +4,15 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  server: {
-    host: "::",
-    port: 8080,
-  },
+  base: "/Sheik_Saqib_Ahmed_Portfolio/", // GitHub Pages repo name
   plugins: [react()],
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
     },
+  },
+  server: {
+    host: "::",
+    port: 8080,
   },
 });
